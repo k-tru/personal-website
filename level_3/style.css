@@ -1,0 +1,224 @@
+/*
+    Name: Kien Trung
+    Date: 08.26.24
+    Section: CSE 190e
+    This is the style.css page for my portfolio of web development
+    work. It is used by all pages in my portfolio to give the site
+    a consistent look and feel.
+*/
+
+#logo {
+    display: flex;
+    width: 150px;
+    height: 72px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#ig {
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+
+#title {
+    justify-content: center;
+}
+
+.logo-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+    color: aliceblue;
+}
+
+/*
+    color: rgb(255, 0, 102);
+    color: rgb(127,0,255);
+*/
+
+.highlight {
+    color: rgb(127,0,255);
+    font-family: "Oswald", sans-serif;
+}
+
+#name{
+    text-decoration: underline;
+    text-decoration-color:rgb(127,0,255);
+}
+
+#navbar{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    width: 370px;
+    height: 50px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 14pt;
+    text-decoration: none;
+    text-transform: capitalize;
+    color:rgb(255, 255, 255);
+}
+
+.navbar:hover{
+    color: rgb(127,0,255);
+}
+
+#indexStuff {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#main-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: black;
+    font-family: "Oswald", sans-serif;
+    padding: 40px;
+    width: 500px;
+    color: aliceblue;
+}
+
+#pictures {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#kien {
+    display: flex;
+    color: aliceblue;
+    justify-content: space-around;
+    width: 300px;
+    height: 400px;
+    border-radius: 10%;
+    border-width: 25px;
+    border-color: whitesmoke;
+}
+
+#boulder {
+    width: 300px;
+    height: 350px;
+    border-radius: 10%;
+    border-width: 25px;
+}
+
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: black;
+    font-family: "Oswald", sans-serif;
+    padding: 30px;
+    width: 500px;
+    color: aliceblue;
+}
+
+/*
+    color: rgb(255, 0, 102);
+    color: rgb(127,0,255);
+    color: rgb(84, 223, 84);
+    color: rgb(0, 162, 255);
+
+*/
+
+.contacts {
+    color: rgb(255, 0, 102);
+    font-size: 12pt;
+    text-decoration: none;
+}
+
+.contacts-link {
+    color: rgb(255, 0, 102);
+    font-size: 12pt;
+    text-decoration: none;
+}
+
+.emailbox {
+    margin-top: 5px;
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+
+.message-container {
+    max-width: 400px;
+    font-family: sans-serif;
+}
+
+textarea {
+    width: 100%;
+    height: 120px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    resize: vertical; /* Allows users to resize it vertically only */
+    font-size: 14px;
+}
+
+.btn {
+    display: block;
+    color: black;
+    width: 15%;
+    border: 3px solid gainsboro;
+    border-radius: 18px;
+    background: white;
+    margin-top: 5px;
+    padding: 4px 8px 4px 8px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: gainsboro;
+}
+
+.contacts-link:hover {
+    color: rgb(127,0,255);
+}
+
+html {
+    background-color: black;
+}
+
+footer {
+    display: flex;
+    align-items: flex-end;
+    color: aliceblue;
+    font-family: "Oswald", sans-serif;
+}
+
+.projects {
+    color: rgb(84, 223, 84);
+    text-decoration: none;
+}
+
+.projects:hover {
+    color: rgb(127,0,255);
+}

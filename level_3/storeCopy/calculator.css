@@ -1,0 +1,75 @@
+/*
+    Name: Kien Trung
+    Date: 09.01.24
+    Section: CSE 190e
+    This is the calculator.css page for my custom calculator.
+    It is used by all pages in my website to give the site
+    a consistent look and feel.
+*/
+
+html {
+    background-image: url("img/black-background.png");
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+}
+/*
+    Black blackground made in microsoft paint, by me.
+*/
+
+header {
+    display: flex;
+    background-color: black;
+    color: rgb(238, 244, 250);
+    justify-content: center;
+    border-style: solid;
+    border-color: #94a2bb;
+    border-width: 0.75em;
+    /* border-radius: 1em; */
+    width: 75%;
+    margin: 0 auto;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.about {
+    padding: 10px;
+    background-color: black;
+    color: rgb(238, 244, 250);
+    margin: 0 auto;
+    width: 25%;
+    border-style: solid;
+    border-color: #94a2bb;
+    border-width: 0.75em;
+    /* border-radius: 1em; */
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.interest-calculator {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-shrink: 0;
+    padding: 10px;
+    background-color: black;
+    color: rgb(238, 244, 250);
+    margin: 0 auto;
+    width: 25%;
+    border-style: solid;
+    border-color: #94a2bb;
+    border-width: 0.75em;
+    /* border-radius: 1em; */
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+footer {
+    color: rgb(238, 244, 250);
+}
