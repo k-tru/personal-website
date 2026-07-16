@@ -9,7 +9,7 @@ const textSelect= [
     // 'Anyoung haseyo! My name is Kien Trung from Seattle, Washington.',
     // 'Selam! My name is Kien Trung from Seattle, Washington.',
     // 'Halo! My name is Kien Trung from Seattle, Washington.'
-    "👋", "Hello!", "Aloha!", "Bonjour!", "Ciao!", "Hallo!", "Xin Chào!", "Nĭ hăo!", "Hola!", "Anyoung haseyo!", "Selam!", "Halo!", "Konnichiwa!"
+    "👋", "Hello!", "Aloha!", "Bonjour!", "Ciao!", "Hallo!", "Xin Chào!", "Nĭ hăo!", "Hola!", "Anyoung haseyo!", "Selam!", "Halo!", "Konnichiwa!", "Hei!"
   ];
    
   function getRandomText() {
